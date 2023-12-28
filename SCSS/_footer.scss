@@ -1,0 +1,21 @@
+.footer{
+    color: rgb(242, 150, 165); 
+    border-top: 1px solid black;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+     
+    ul {
+         display: flex;
+         li{ 
+             list-style-type: none;
+             margin-left: 40px;
+         }  
+     }
+
+     img{width: 65px;
+        margin: 25px;}
+ }

@@ -12,14 +12,14 @@ header{display: flex;
             display: flex; 
             margin-top: 20px;
             
-            li{ 
+            li{ transition: 1s;
                 a{ text-decoration: none;
                     color: black;
                    margin: 20px;
 
                 &:hover{
                     color: rgb(255, 156, 224);
-                    transition: 1s;
+                    
 
            }
          }

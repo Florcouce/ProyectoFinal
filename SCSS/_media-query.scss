@@ -3,5 +3,21 @@ img{width: 110px;
     padding-top: 10px;}
 
 @media screen and (min-width: 920px) {
-header nav{display: block; }
+header nav{display: block;}
+
+}
+
+
+@media screen and (max-width: 800px){
+   
+    h4{font-size: 15px;}
+    h2{font-size: 35px;}
+    p{font-size: 15px;}
+  
+}
+
+@media screen and (max-width: 950px){
+  
+    h3{font-size: 20px;}
+    
 }
