@@ -1,9 +1,12 @@
 header {
   display: flex;
-  margin: 20px;
+  margin: 25px;
   justify-content: space-around;
   align-items: center;
   border: 1px black;
+}
+header img {
+  width: 150px;
 }
 header nav {
   display: none;
@@ -26,6 +29,8 @@ header nav ul li a {
 }
 header nav ul li a:hover {
   color: rgb(255, 156, 224);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 * {
@@ -107,6 +112,71 @@ p {
   text-align: center;
 }
 
+.Titulo-Ideas {
+  display: flex;
+  align-items: center;
+  margin: 40px;
+}
+.Titulo-Ideas img {
+  width: 65px;
+  height: 60px;
+}
+
+.Que-ofrecemos {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: lighter;
+  padding: 25px;
+  transition: 2s;
+}
+.Que-ofrecemos span {
+  color: rgba(82, 219, 180, 0.938);
+}
+.Que-ofrecemos .Servicio {
+  margin-top: 45px;
+  list-style-type: none;
+}
+.Que-ofrecemos .Servicio:hover {
+  background-color: black;
+  color: rgba(82, 219, 180, 0.938);
+  transition: 0.5s;
+}
+
+.BloqueSobreNosotros {
+  padding: 40px;
+  text-align: center;
+}
+.BloqueSobreNosotros img {
+  width: 250px;
+  align-content: center;
+  margin: 45px;
+}
+.BloqueSobreNosotros img:hover {
+  transition: 1s;
+  transform: scale(1.5);
+}
+.BloqueSobreNosotros h8 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 55px;
+  padding: 20px;
+  border: 3px solid rgb(255, 161, 177);
+}
+.BloqueSobreNosotros h8:hover {
+  transition: 1s;
+  color: rgb(255, 161, 177);
+  font-size: 65px;
+  img: url();
+}
+
+.Sobrenosotras {
+  font-size: 25px;
+  text-align: center;
+  padding: 25px;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
 .footer {
   color: rgb(242, 150, 165);
   border-top: 1px solid black;
@@ -126,7 +196,7 @@ p {
 }
 .footer img {
   width: 65px;
-  margin: 25px;
+  margin: 20px;
 }
 
 img {

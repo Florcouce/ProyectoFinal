@@ -54,7 +54,7 @@ h2{
         margin-left: 35px;
         
     }
-   
+
 }
 
 h3{
@@ -74,4 +74,71 @@ p{font-size: 20px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-weight: bold;
 text-align: center ;}
+
+.Titulo-Ideas{
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    img{width: 65px;
+    height: 60px;}
+   
+}
+
+.Que-ofrecemos{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+    padding: 25px;
+    transition: 2s;
+    
+
+    span{color: rgba(82, 219, 180, 0.938);} 
+    
+    .Servicio{margin-top: 45px;
+        list-style-type: none;
+        &:hover{
+            background-color: black;
+            color: rgba(82, 219, 180, 0.938);
+            transition: 0.5s;
+        } 
+    }   
+}
+
+.BloqueSobreNosotros{
+    padding: 40px;
+    text-align: center;
+
+    img{
+        width: 250px;
+        align-content: center;  
+        margin: 45px;
+        &:hover{
+            transition: 1s;
+            transform: scale(1.5);
+        }
+    }
+
+    h8{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+        font-size: 55px ;
+        padding: 20px;
+        border: 3px solid rgb(255, 161, 177);
+        &:hover{
+            transition: 1s;
+            color: rgb(255, 161, 177);
+            font-size: 65px;
+            img: url()
+
+        }
+    }
+
+}
+
+.Sobrenosotras{
+    font-size: 25px;
+    text-align: center;
+    padding: 25px;
+    font-style: italic;
+    margin-bottom: 40px;
+}
 

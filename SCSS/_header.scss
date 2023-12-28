@@ -1,8 +1,11 @@
 header{display: flex;
-    margin: 20px;
+    margin: 25px;
     justify-content: space-around;
     align-items: center;
     border: 1px black;
+
+    img{width: 150px;}
+
     nav{display: none;
         ul{ 
             list-style-type: none;
@@ -19,7 +22,8 @@ header{display: flex;
 
                 &:hover{
                     color: rgb(255, 156, 224);
-                    
+                    border-top: 1px solid black;
+                    border-bottom: 1px solid black;
 
            }
          }
@@ -27,5 +31,4 @@ header{display: flex;
      }
   } 
 }
-
 
