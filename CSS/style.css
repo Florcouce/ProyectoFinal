@@ -112,14 +112,27 @@ p {
   text-align: center;
 }
 
+.Titulo-Asesoramos {
+  align-items: center;
+  padding: 50px;
+}
+.Titulo-Asesoramos span {
+  color: rgba(82, 219, 180, 0.938);
+}
+
 .Titulo-Ideas {
   display: flex;
   align-items: center;
-  margin: 40px;
+  padding-top: 60px;
+  padding-left: 60px;
 }
 .Titulo-Ideas img {
   width: 65px;
   height: 60px;
+}
+
+.carousel {
+  padding: 20px;
 }
 
 .Que-ofrecemos {
@@ -166,7 +179,6 @@ p {
   transition: 1s;
   color: rgb(255, 161, 177);
   font-size: 65px;
-  img: url();
 }
 
 .Sobrenosotras {
@@ -175,6 +187,28 @@ p {
   padding: 25px;
   font-style: italic;
   margin-bottom: 40px;
+}
+
+.Productos {
+  margin: 50px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  align-items: space;
+  align-content: center;
+}
+.Productos .row {
+  padding: 35px;
+}
+.Productos .col-4 {
+  font-size: 20px;
+  color: rgb(254, 137, 156);
+}
+.Productos .col-8 {
+  font-size: 60px;
+}
+.Productos img {
+  margin-bottom: 25px;
+  width: 250px;
 }
 
 .footer {
@@ -225,6 +259,25 @@ img {
   h3 {
     font-size: 20px;
   }
+}
+.Ir-a-Instagram {
+  display: flex;
+  justify-content: center;
+}
+.Ir-a-Instagram a {
+  background-color: rgb(254, 214, 214);
+  color: rgb(239, 147, 181);
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 15px;
+}
+.Ir-a-Instagram a:hover {
+  background-color: white;
+  border: 3px solid rgba(82, 219, 180, 0.938);
 }
 
 /*# sourceMappingURL=style.css.map */
